@@ -1,4 +1,4 @@
-Cycling Performance Analysis using Statistical Modeling & Linear Mixed-Effects Models
+⭐ Cycling Performance Analysis using Statistical Modeling & Linear Mixed-Effects Models
 📌 Project Overview
 
 This project presents an in-depth statistical analysis of professional cycling performance data to understand how rider classifications and stage characteristics influence performance outcomes. Using Python-based statistical techniques, the study evaluates whether observed differences in rider performance are statistically significant and whether individual rider effects contribute meaningfully beyond group-level trends.
