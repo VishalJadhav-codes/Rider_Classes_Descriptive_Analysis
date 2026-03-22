@@ -73,3 +73,19 @@ Examples:
 - Boxplots by rider class  
 - Residual diagnostics plots  
 - Model summary output  
+
+---
+
+## 🚀 Future Improvements
+
+- 🤖 Implement advanced models (Bayesian hierarchical models)  
+- 📊 Expand dataset with multiple seasons or races  
+- 🌍 Build an interactive dashboard for performance insights  
+- ⚡ Optimize model performance and feature engineering  
+- 🧠 Integrate predictive modeling for future performance  
+
+---
+
+## 📬 Connect With Me
+- 📧 Email: vishaljadhav12119036@gmail.com  
+- 💼 LinkedIn: www.linkedin.com/in/vishaljadhav01  
