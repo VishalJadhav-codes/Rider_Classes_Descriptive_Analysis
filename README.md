@@ -1,56 +1,75 @@
-⭐ Cycling Performance Analysis using Statistical Modeling & Linear Mixed-Effects Models
-📌 Project Overview
+# 🚴‍♂️ Cycling Performance Analysis using Statistical Modeling & Linear Mixed-Effects Models
 
-This project presents an in-depth statistical analysis of professional cycling performance data to understand how rider classifications and stage characteristics influence performance outcomes. Using Python-based statistical techniques, the study evaluates whether observed differences in rider performance are statistically significant and whether individual rider effects contribute meaningfully beyond group-level trends.
+## 📌 Problem
+Understanding athlete performance in professional cycling is complex due to:
+- 🚴 Variations in rider roles (Climber, Sprinter, etc.)
+- 🏁 Different stage conditions and race dynamics  
+- 🔁 Repeated measurements of the same riders across multiple stages  
 
-The analysis combines classical hypothesis testing with a Linear Mixed-Effects Model (LMM) to account for repeated measurements of riders across multiple stages—an approach commonly used in applied statistics and sports analytics research.
+Traditional analysis often fails to capture **both group-level differences and individual rider variability**.
 
-🎯 Objectives
+👉 This project aims to determine:
+- Whether rider classifications significantly impact performance  
+- Whether individual rider effects contribute beyond overall trends  
 
-Analyze performance differences across rider classes (All-Rounder, Climber, Sprinter, Unclassed)
+---
 
-Test statistical assumptions such as normality and homogeneity of variance
+## 💡 Solution
+Performed an in-depth **statistical analysis and modeling** of cycling performance data using both classical and advanced techniques.
 
-Compare rider class performance using both parametric and non-parametric tests
+Approach:
+- 📊 Conducted Exploratory Data Analysis (EDA) to understand distributions  
+- 🧪 Tested statistical assumptions (normality & variance)  
+- 📈 Applied hypothesis testing to compare rider classes  
+- 🧠 Built a **Linear Mixed-Effects Model (LMM)** to capture rider-specific variability  
+- ✅ Validated model using residual diagnostics  
 
-Quantify individual rider variability using a Linear Mixed-Effects Model
+---
 
-Perform residual diagnostics to validate model assumptions
+## 🧠 Methodology
 
-🧠 Methodology
+- 📊 **EDA**: Descriptive statistics & visualizations  
+- 🧪 **Normality Test**: Shapiro–Wilk Test  
+- ⚖️ **Variance Test**: Levene’s Test  
+- 📈 **Hypothesis Testing**:  
+  - One-way ANOVA (parametric)  
+  - Kruskal–Wallis Test (non-parametric)  
+- 🔍 **Post-hoc Analysis**: Tukey HSD  
+- 🤖 **Advanced Modeling**: Linear Mixed-Effects Model (LMM)  
+- ✅ **Model Validation**: Residual diagnostics & intra-class correlation  
 
-Exploratory Data Analysis (EDA): Descriptive statistics and visualizations to understand data structure and distributions
+---
 
-Statistical Assumption Checks: Shapiro–Wilk tests for normality and Levene’s test for variance homogeneity
+## 🛠️ Tech Used
+- 🐍 Python  
+- 📊 Pandas, NumPy  
+- 📉 Matplotlib, Seaborn  
+- 📐 SciPy (Statistical Testing)  
+- 🤖 Statsmodels (LMM)  
+- 📓 Jupyter Notebook  
 
-Hypothesis Testing: One-way ANOVA and Kruskal–Wallis tests
+---
 
-Post-hoc Analysis: Tukey HSD pairwise comparisons
+## 📊 Results
 
-Advanced Modeling: Linear Mixed-Effects Model with rider-level random effects
+Key findings from the analysis:
 
-Model Validation: Residual diagnostics and intra-class correlation analysis
+- 📈 Rider classification has a **statistically significant impact** on performance  
+- 🚴 Unclassed riders showed **higher average performance** compared to Sprinters and Climbers  
+- 🧠 Linear Mixed-Effects Model revealed **strong rider-specific variability**  
+- ✅ Residual diagnostics confirmed **model reliability and robustness**  
 
-🛠️ Tools & Technologies
+👉 Insight:
+Both **group-level factors** (rider class) and **individual-level differences** significantly influence performance.
 
-Python
+---
 
-Pandas & NumPy
+## 📷 Screenshots
 
-SciPy
+> Add visualizations here soon
 
-Statsmodels
-
-Matplotlib & Seaborn
-
-Jupyter Notebook
-
-📊 Key Insights
-
-Rider classification has a statistically significant impact on performance points
-
-Unclassed riders demonstrate higher average performance compared to Sprinters and Climbers
-
-Mixed-effects modeling reveals substantial rider-specific variability, justifying the use of hierarchical modeling
-
-Residual diagnostics confirm the robustness of the fitted model
+Examples:
+- Distribution plots  
+- Boxplots by rider class  
+- Residual diagnostics plots  
+- Model summary output  
