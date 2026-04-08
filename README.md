@@ -22,7 +22,7 @@ Approach:
 - 🧪 Tested statistical assumptions (normality & variance)  
 - 📈 Applied hypothesis testing to compare rider classes  
 - 🧠 Built a **Linear Mixed-Effects Model (LMM)** to capture rider-specific variability  
-- ✅ Validated model using residual diagnostics  
+- ✅ Validated model using residual diagnostics
 
 ---
 
