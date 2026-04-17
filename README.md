@@ -10,7 +10,7 @@ Traditional analysis often fails to capture **both group-level differences and i
 
 👉 This project aims to determine:
 - Whether rider classifications significantly impact performance  
-- Whether individual rider effects contribute beyond overall trends  
+- Whether individual rider effects contribute beyond overall trends 
 
 ---
 
